@@ -14,7 +14,8 @@ o	Chassids: represent dynastic chassids
 o	Breslovers: follower of Nachman of Breslov and other non-dynastic chassids who actively work on Kiruv pre-event
 	+1 diplomacy, +10 vassal opinion, -5 other branch
 	Hisboddedus: isolated meditation
-o	Starting characters for each: Kiryas Tosh and Joel Chassid, Levi Litvak, Rothschild and the LA merchant Breslov
+o	Starting characters for each: Kiryas Tosh and Joel Chassid, Levi Litvak, Rothschild and the Sheban merchant Breslov
+new characters? maybe a reform/maaravi count in socal or gran francisco, maybe a neoladino patrian in one of the mexican MRs or another jewish patrician somewhere in the US
 
 New Reform features:
 •	Independent religion instead of a heresy
@@ -110,6 +111,8 @@ icons for new traits
 possibly steal the big fur hat from the russian society to give yiddish haredis shtreimels as well as maybe black hats and/or white breslov kippas
 are peyos a possibility? /make beards more common
 maybe find some clothing for neoladino/sheban as well
+new piety name?
+new music?
 
 
 
