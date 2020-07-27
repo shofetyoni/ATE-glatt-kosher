@@ -1,4 +1,4 @@
-Gameplan for Jewish Disunity mod for ATE:
+Gameplan for Glatt Kosher mod for ATE:
 
 Changes to Haredi:
 •	Autocephaly?
@@ -103,5 +103,14 @@ o	If successful, events begin with secret talks to other vassals of the empire
 	With enough successes, the bastard child gains a claim to the Caribbean empire
 o	An event when Portia dies that give him the claim, allows you to begin a faction
 o	An event if you win celebrating and making the new king your friend
+
+aesthetic changes:
+give Haredi the menorah icon (maybe a change the color to a deeper bronze or to silver?) and Reform the star of david
+icons for new traits
+possibly steal the big fur hat from the russian society to give yiddish haredis shtreimels as well as maybe black hats and/or white breslov kippas
+are peyos a possibility? /make beards more common
+maybe find some clothing for neoladino/sheban as well
+
+
 
 
