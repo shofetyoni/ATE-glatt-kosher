@@ -1,0 +1,62 @@
+jewish_breslov = {
+	opposites = {
+		jewish_litvak
+		jewish_chassid
+	}
+
+	opposite_opinion = -5
+	
+	diplomacy = 2
+	martial = -1
+	
+	potential = { religion = jewish }
+	religious_branch = jewish
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+jewish_chassid = {
+	opposites = {
+		jewish_litvak
+		jewish_breslov
+	}
+
+	opposite_opinion = -5
+	
+	
+	learning = 2
+	intrigue = -1
+	
+	potential = { religion = jewish }
+	religious_branch = jewish
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+jewish_litvak = {
+	opposites = {
+		jewish_breslov
+		jewish_chassid
+	}
+
+	opposite_opinion = -5
+	
+	stewardship = 2
+	diplomacy = -1
+	
+	potential = { religion = jewish }
+	religious_branch = jewish
+	random = no
+	religious = yes
+	ruler_designer_cost = 0
+}
+tzaddik = {
+	
+	jewish_opinion = 10
+	learning = 2
+	
+	potential = { religion = jewish }
+	random = no
+	religious = yes
+	ruler_designer_cost = 100000
+}

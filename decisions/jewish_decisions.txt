@@ -1,0 +1,30 @@
+	change_jewish_branch = {
+		ai = no
+		
+		potential = {
+			religion = jewish
+			is_playable = yes
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOT = { has_character_flag = changedjewishbranch }
+		}
+		
+		allow = {
+			religion = jewish
+			is_playable = yes
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				narrative_event = { id = patria.1 }				
+			}
+			custom_tooltip = { text = TXT_change_patria_grande_branch }
+			set_character_flag = changedjewishbranchbranch
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+	}	
+
