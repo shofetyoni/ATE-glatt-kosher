@@ -1,0 +1,34 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+reform;Haskalah;;;;;;;;;;;;;x]
+reform_DESC;After the Event, the many progressive Jewish movements that began after the Haskalah, or Jewish Enlightement, began to organize together to insure their survival throughout the centuries. While opinions differ between the movements on Jewish Law, all permit women to be ordained as rabbis and allow marriage between same-sex couples. The Jews of the Haskalah maintain that individual Jews should work towards restoring the pre-Event world through good works and philanthropy. This principle is known as "Tikkun Olam"-- literally, "repair of the world".;;;;;;;;;;;;;x
+reform_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Reform rulers. \n§Y*§! Homosexual Haskalah rulers are allowed to marry other homosexual characters. ;;;;;;;;;;;;;x
+maaravi;Ma'aravi;;;;;;;;;;;;;x
+maaravi_DESC;The Ma'aravi are a Jewish movement popular in the Empire of California, rejected by other for their beliefs that Muhammed, Buddha, Elton, Jesus and others were "Prophets of the other nations" who also recieved divine wisdom that they can learn from.;;;;;;;;;;;;;x
+maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Ma'aravi rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Bureaucratic Government is Enabled;;;;;;;;;;;;;x
+muscular;Muscular;;;;;;;;;;;;;x
+muscular_DESC;While Muscular Jews agree with the egalitarian principles of Haskalah Judaism, they reject its emphasis on Tikkun Olam and religious tolerance, arguing instead that in a world dominated by violence, Jews too must react to the world around them by becoming stronger and fighting for a land of their own.;;;;;;;;;;;;;x
+maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Muscular rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Holy Wars are allowed;;;;;;;;;;;;;x
+jewish_litvak;Litvak;;;;;;;;;;;;;x
+jewish_litvak_desc;Litvaks stress highly intellectual Talmud study through yeshivas. They descend from earlier opponents to the Chassidic movent known as the Misnagdim, who were centered around the area of Greater Lithuania.;;;;;;;;;;;;;x
+jewish_breslov;Breslover;;;;;;;;;;;;;x
+jewish_breslov_desc;Breslover Chassids follow the teachings of Rebbe Nachman of Breslov, who stressed building a personal connection with God and advocated for Kiruv (outreach to non-Haredi Jews). He left no successor and encouraged his followers to remain decentralized.;;;;;;;;;;;;;x
+jewish_chassid;Chassid;;;;;;;;;;;;;x
+jewish_chassid_desc;The Chassidic movement developed in the 1800s beginning with the Baal Shem Tov. Chassids follow one of many courts, each run by a Rebbe of a given dynasty.;;;;;;;;;;;;;x
+reform_reform;Reform;;;;;;;;;;;;;x
+reform_reform_desc;Reform Jews regard Halakha (Jewish religious law) as non-binding, instead insisting that each Jew has the individual choice to interpret the laws of Judaism as they see fit.;;;;;;;;;;;;;x
+reform_conservative;Conservative;;;;;;;;;;;;;x
+reform_conservative_desc;Conservative Jews believe that Halakha (Jewish religious law) is binding, but that earlier decisions of Rabbis may be overturned and updated as the times require.;;;;;;;;;;;;;x
+reform_renewal;Renewal;;;;;;;;;;;;;x
+reform_renewal_desc;The Renewal movement incorporates Chassidic thought and a popularized approach to kabbalah with the Reform positions on Halakha, Tikkun Olam and Egalitarianism.;;;;;;;;;;;;;x
+change_jewish_branch;Change Haredi Movement;;;;;;;;;;;;;x
+change_jewish_branch_desc;I can change the Haredi movement that I belong to;;;;;;;;;;;;;x
+EVTDESC_jewish_choose;As a Jewish  adult, I can make my own decision for which movement I want to dedicate myself to:;;;;;;;;;;;;;x
+EVTOPT_jewish_litvak;I will follow the teachings of the Vilna Gaon and the Litvaks;;;;;;;;;;;;;x
+EVTOPT_jewish_chassid;I will follow the teachings of the Baal Shem Tov and the Chassidim;;;;;;;;;;;;;x
+EVTOPT_jewish_breslov;I will follow the teachings of Nachman of Breslov and the Breslover Chassidim;;;;;;;;;;;;;x
+change_reform_branch;Change Haskalah Movement;;;;;;;;;;;;;x
+change_reform_branch_desc;I can change the movement within Haskalah Judaism that I belong to;;;;;;;;;;;;;x
+EVTDESC_reform_choose;As a Jewish  adult, I can make my own decision for which movement I want to dedicate myself to:;;;;;;;;;;;;;x
+EVTOPT_reform_conservative;The Conservative movement appeals to me most;;;;;;;;;;;;;x
+EVTOPT_reform_reform;The Reform movement is the best option for me.;;;;;;;;;;;;;x
+EVTOPT_reform_renewal;I believe that the Jewish Renewal is where I belong;;;;;;;;;;;;;x

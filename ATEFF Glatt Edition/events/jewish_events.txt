@@ -1,0 +1,128 @@
+
+namespace = kosher
+
+# Choose religious movement
+character_event = {
+	id = kosher.1
+	desc = EVTDESC_jewish_choose
+	picture = GFX_evt_bishop
+	religion = jewish
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+
+	option = {
+		name = EVTOPT_jewish_litvak
+		hidden_tooltip = {
+			add_trait = jewish_litvak
+			remove_trait = jewish_breslov
+			remove_trait = jewish_chassid
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = jewish_litvak }
+			modifier = { factor = 1.5 trait = erudite }
+			modifier = { factor = 1.5 trait = proud }
+			modifier = { factor = 1.5 trait = cynical }
+		}
+	}
+
+	option = {
+		name = EVTOPT_jewish_breslov
+		hidden_tooltip = {
+			add_trait = jewish_breslov
+			remove_trait = jewish_litvak
+			remove_trait = jewish_chassid
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = jewish_breslov }
+			modifier = { factor = 2 trait = gregarious }
+			modifier = { factor = 5 trait = mystic }
+			modifier = { factor = 4 trait = kind }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_jewish_chassid
+		hidden_tooltip = {
+			add_trait = jewish_chassid
+			remove_trait = jewish_breslov
+			remove_trait = jewish_litvak
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = jewish_chassid }
+			modifier = { factor = 2 trait = humble }
+			modifier = { factor = 1.5 trait = lustful }
+			modifier = { factor = 1.5 trait = gregarious }
+		}
+	}
+}
+
+# Choose religious movement
+character_event = {
+	id = kosher.2
+	desc = EVTDESC_reform_choose
+	picture = GFX_evt_bishop
+	religion = reform
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+
+	option = {
+		name = EVTOPT_reform_conservative
+		hidden_tooltip = {
+			add_trait = reform_conservative
+			remove_trait = reform_reform
+			remove_trait = reform_renewal
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = reform_conservative }
+			modifier = { factor = 1.5 trait = erudite }
+			modifier = { factor = 1.5 trait = proud }
+			modifier = { factor = 1.5 trait = cynical }
+		}
+	}
+
+	option = {
+		name = EVTOPT_reform_reform
+		hidden_tooltip = {
+			add_trait = reform_reform
+			remove_trait = reform_conservative
+			remove_trait = reform_renewal
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = reform_reform }
+			modifier = { factor = 2 trait = gregarious }
+			modifier = { factor = 5 trait = mystic }
+			modifier = { factor = 4 trait = kind }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_reform_renewal
+		hidden_tooltip = {
+			add_trait_trait = reform_renewal
+			remove_trait = reform_reform
+			remove_trait = reform_conservative
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = reform_renewal }
+			modifier = { factor = 2 trait = humble }
+			modifier = { factor = 1.5 trait = lustful }
+			modifier = { factor = 1.5 trait = gregarious }
+		}
+	}
+}

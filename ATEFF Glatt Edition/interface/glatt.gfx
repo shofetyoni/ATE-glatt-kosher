@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_trait_jewish_breslov"
+	texturefile = "gfx/traits/jewish_breslov.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_jewish_chassid"
+	texturefile = "gfx/traits/jewish_chassid.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_jewish_litvak"
+	texturefile = "gfx/traits/jewish_litvak.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_reform_renewal"
+	texturefile = "gfx/traits/reform_renewal.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_reform_conservative"
+	texturefile = "gfx/traits/reform_conservative.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	name = "GFX_trait_reform_reform"
+	texturefile = "gfx/traits/reform_reform.dds"
+	noOfFrames = 1
+	norefcount = yes
+	effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
