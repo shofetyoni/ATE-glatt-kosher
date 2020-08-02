@@ -1,0 +1,27 @@
+song = {
+	name = "Chashnik Litvakus.ogg"
+	song_name = "Chashnik"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				religion_group = jewish
+			}
+		}
+	}
+}
+
+song = {
+	name = "Ovinu Malkeinu Lubavitch Hasidim.ogg"
+	song_name = "Ovinu Malkeinu"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = jewish
+			}
+		}
+	}
+}
