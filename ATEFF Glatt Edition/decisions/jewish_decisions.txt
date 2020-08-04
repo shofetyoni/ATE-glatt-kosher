@@ -14,12 +14,14 @@
 		allow = {
 			religion = jewish
 			is_playable = yes
+			piety = 500
 		}
 		
 		effect = {
 			hidden_tooltip = {
 				narrative_event = { id = kosher.1 }				
 			}
+			piety = -500
 			custom_tooltip = { text = TXT_change_jewish_branch }
 			set_character_flag = changedjewishbranch
 		}
@@ -43,6 +45,7 @@
 		allow = {
 			religion = reform
 			is_playable = yes
+			piety = 250
 		}
 		
 		effect = {
@@ -51,6 +54,7 @@
 			}
 			custom_tooltip = { text = TXT_change_reform_branch }
 			set_character_flag = changedreformbranch
+			piety = -250
 		}
 		
 		revoke_allowed = {
@@ -58,3 +62,125 @@
 		}
 	}
 	}
+
+	# talmud_study ={
+	# only_playable= yes
+	# is_high_prio = no
+	
+	# filter = self
+	# ai_target_filter = self
+	# ai_check_interval = 24
+	# potential = {			
+		 # is_playable = yes
+		 # religion_group = jewish
+		 # OR = {
+			# has_focus = focus_theology
+			# society_member_of = monastic_order_jewish
+			# }
+		 # prisoner = no
+		 # NOR = { 
+			 # trait = incapable
+			 # is_inaccessible_trigger = yes
+		# }
+		# war = no
+		# }
+	
+	# allow = {
+		# is_adult = yes
+		# NOR = {
+			# is_ill = yes
+			# has_character_flag = talmud_studytimer
+		# }
+		# piety = 100
+	# }
+	# effect = {
+		# hidden_tooltip = {
+			# narrative_event = { id = kosher.3 }				
+		# }
+		# custom_tooltip = { text = TXT_talmud_study		}
+		# set_character_flag = talmud_studytimer
+		# piety = -50
+	# }
+	# revoke_allowed = {
+		# always = no
+	# }
+	# ai_will_do = {
+		# factor =.01
+		# modifier = {
+			# factor = 5
+			# trait = erudite
+		# }
+		
+	# }
+	
+# targetted_decisions ={			
+			
+	# bar_mitzvah = {
+		# only_playable = yes
+		# is_high_prio = yes
+		
+		# filter = home_court
+		# ai_target_filter = home_court
+		# ai_check_interval = 12
+	
+		# from_potential = {
+			# is_playable = yes
+			# religion_group = jewish
+			# prisoner = no
+			# NOR = { 
+				# trait = incapable
+				# is_inaccessible_trigger = yes
+			# }
+			# war = no
+		# }
+		
+		# potential = {
+			# is_alive = yes
+			# NOR = {
+				# has_character_flag = bar_mitzvahed
+				# AND = {
+					# religion = haredi
+					# is_female = yes
+				# }
+			# }
+			# is_child_of = FROM
+		# }
+		# allow = {
+			# age = 12
+			# NOR = {
+				# is_landed = yes
+				# prisoner = yes
+				# is_adult = yes
+				# custom_tooltip = {
+					# text = bastard_eunuch_celibate_or_incapable_tt
+					# OR = {
+						# trait = bastard
+						# trait = eunuch
+						# trait = celibate
+						# trait = incapable
+					# }
+				# }
+				# is_ascetic_trigger = yes
+			# }
+			# is_inaccessible_trigger = no
+			# host = { character = FROM }
+			# FROM = { num_of_vassals = 7 }
+		# }
+		# effect = {
+
+		# }
+		
+		# revoke_allowed = {
+			# always = no
+		# }
+		
+		# ai_will_do = {
+			# factor = 1
+			
+			# modifier = {
+				# factor = 0.1
+				# always = yes
+			# }
+		# }
+	# }
+	# }

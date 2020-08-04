@@ -126,3 +126,50 @@ character_event = {
 		}
 	}
 }
+character_event = {
+	id = kosher.3
+	desc = EVTDESC_reform_choose
+	picture = GFX_evt_bishop
+	religion = reform
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+
+	option = {
+		name = EVTOPT_normal_study
+		random_list = {
+			10 =	{		
+				hidden_tooltip = {
+					narrative_event = { id = kosher.4 }				
+			}
+			10
+		}
+		
+		ai_chance = {
+			factor = 5
+			modifier = { factor = 2 trait = robust }
+			modifier = { factor = 1.5 trait = proud }
+			modifier = { factor = 1.5 trait = zealous }
+		}
+	}
+
+	option = {
+		name = EVTOPT_intense_study
+		hidden_tooltip = {
+			narrative_event = { id = kosher.4 }				
+		}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = feeble }
+			modifier = { factor = 1.5 trait = shy }
+			modifier = { factor = 1.5 trait = erudite }
+		}
+	}
+	
+
+}
