@@ -1,0 +1,107 @@
+Gameplan for Jewish Disunity mod for ATE:
+
+Changes to Haredi:
+•	Autocephaly?
+•	Excommunications (Herem) and Claims allowed:
+o	Very limited if target not lunatic, secret society, known murderer, possessed
+•	Three Branches (Movements?), once per lifetime & 750 piety to change:
+o	Litvaks: represent the non-chasidic haredis
+	+1 learning,  +.01 cultural tech, -5 other branch
+	Yeshiva decision
+o	Chassids: represent dynastic chassids
+	+1 stewardship, +20 religious head/church opinion, -5 other branch
+	Tish
+o	Breslovers: follower of Nachman of Breslov and other non-dynastic chassids who actively work on Kiruv pre-event
+	+1 diplomacy, +10 vassal opinion, -5 other branch
+	Hisboddedus: isolated meditation
+o	Starting characters for each: Kiryas Tosh and Joel Chassid, Levi Litvak, Rothschild and the LA merchant Breslov
+
+New Reform features:
+•	Independent religion instead of a heresy
+•	Potentially rename it to Haskalah/Maskilim? (since Reform is a branch within the larger religion that includes the whole range of non-haredi jews in the US)
+•	No Holy Wars, Piety while at peace. No Religious Revocation, No Conversion Demands
+•	Absolute Cognatic/Female Temple Holders/Gay Marriage/Feminist
+•	Interfaith dialogue: spend piety to give characters sympathy for any religion possessed by a vassal/neighbor, maybe a chance for them to gain sympathy for Judaism as well and maybe even an opinion boost/friendship if high diplomacy?
+•	Targeted Tzedakah decision for counties: costs money/piety, lowers revolt risk, increases prosperity/relations with vassal if it’s a vassal county
+•	Three branches (maybe use Hebrew names?):
+o	Conservative (Masorti): Conservative/Traditional/Open Orthodox Jews who believe halakha is binding but that they can change/interpret earlier rulings to allow for egalitarian synagogues, gay marriage, etc.
+	+5 haredi/meshichist opinion
+	+ 1 learning
+o	Reform (Tikkun/Mitkademet): Reform/Reconstructionist/Progressive Jews who believe halakha is not binding but is to be interpreted by the individual 
+	+1 diplomacy, +5 other religion groups opinion
+o	Renewal (P’nai Or): Jews who believe that Halakha isn’t binding, but reintroduce the believe of the chassids in term of mysticism, meditative isolation, and active song
+	+1 piety/month, hitboddedut?
+
+Heresies:
+•	2 potential reform jewish heresies:
+•	Ma’aravi: an extension of renewal/reform Judaism past the neo-hassidic influences of renewal and the semi-universalism of reform into syncretism with other religious traditions, turning into a sort of Cetic Judaism
+o	Gain ambitions to remove vices
+o	Maybe add guru events for court rabbi?
+o	Bureaucratic government!
+•	Muscular (or maybe revisionist): a more militant version of reform
+o	Allow holy wars, take away interfaith dialogue, idk what else
+•	Meshichism changes:
+o	Add a formable religious head: Lubavicher rebbe?
+o	Maybe allow GHWs for them?
+
+New features for all Jews
+•	Organize Festive Bris Milah (a similar decision to the sumptuous baptism for Christians)
+•	Bar/Bat mitzvah event modeled on introduce heir to realm?
+•	Add more events to Passover chain: cleaning the house with the feather, perhaps a drunken friendship with an invited courtier/vassal, perhaps sneaking off to have bread if cynical, Mimouna at the end if neoladino/sheban/anjalusi/tehrangeleno?
+•	Consult grand rebbe/Patriarch rebbe (if autocephaly)/court rebbe if autonomous
+o	Mend rivalry
+o	Fix marriage
+o	Set up shidduch
+o	Theological/realm management issues
+
+•	Delve into Talmudic Studies Intrigue Decision (requires Theology focus or Chabad membership)
+o	Dedication to studies 
+	Regular
+	Devoting myself to study (-4 stewardship 50% chance stressed)
+	Possibly a choice of what topics to study (kabbalah vs. laws etc.)
+o	Chavruta event (study buddy, maybe randomized courtier or ruler)
+	Partner in chavruta becomes friend
+	Partner in chavruta becomes rival
+	Partner in chavruta get +10 opinion
+o	events over the course of a year or two
+	seek help from court rebbe
+	breakthrough in study
+	failing to understand
+	Success tied strongly to learning and chavrusa partner learning
+o	if successful get stacking ‘talmudic studies’ modifier which could allow more studies even if you switch focus (+3 church opinion)
+o	5ish? modifiers gets lifestyle trait (Mystic Theologian or Scholar) as well as Posek trait (+2 learning +5 jewish opinion)
+
+•	With Posek trait, can try to write teachings:
+o	Requires at least 15-20 learning, likelihood of success increases with more learning
+o	If successful can boost MA of religion
+o	chance of creating a book artifact? (probably move this to Chabad)
+o	If learning >30, multiple successful teachings, chance of being recognized as Gaon Ha’Dor
+	Gain a bloodline with boost to learning, Jewish opinion, and ability to attract scholars/philosophers
+•	Maybe have the rabbinical advice events target Posek characters instead of temple holders and make it so all temple holders are poseks
+
+Society ideas: (more of a long shot)
+•	Chabad Meshichism/Kiruv events
+o	As member of Chabad, get approached by another Chabad member who tries to convert you to Mesichist in secret.
+o	As Reform/Mesichist/Reform heresy, Kiruv event that allows character to convert to Haredi
+•	Chabad book writing (re-skinned master’s thesis) to replace culture conversion?
+•	Maybe adapt Great Trade League mod into a Solkherim Society for Jews/non-Jews with a trade route post?
+
+Possible character event chain ideas:
+•	Tevye Anatevka
+o	A Daughter runs off into marriages with a non-Jew
+	Accept the couple or reject them
+o	A business proposal that can make you friends with Rothschild or levi
+o	A daydream of how relaxing life would be if he were a simple dairy farmer instead of a wealthy man
+
+•	Adam the Miami Patrician (want to maybe give him palm beach as well?):
+o	Starts with a description of his admiration for Portia and worries about Barrington as a new emperor, discussion of his daughter’s affair with Portia’s other son Rainford and her disappearance
+o	Daughter arrives secretly to court with a bastard child, can choose to build his claim to the throne
+	Choice to raise son as a Jew (more difficult to stake claim) or as a Rastafarian (easier to stake claim)
+o	Attempt to take control of the republic of Miami
+o	If successful, events begin with secret talks to other vassals of the empire
+	With high diplomacy can gain favors/friendships with other vassals
+	With enough successes, the bastard child gains a claim to the Caribbean empire
+o	An event when Portia dies that give him the claim, allows you to begin a faction
+o	An event if you win celebrating and making the new king your friend
+
+

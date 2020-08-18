@@ -6,7 +6,7 @@ maaravi;Ma'aravi;;;;;;;;;;;;;x
 maaravi_DESC;The Ma'aravi are a Jewish movement popular in the Empire of California, rejected by other for their beliefs that Muhammed, Buddha, Elton, Jesus and others were "Prophets of the other nations" who also recieved divine wisdom that they can learn from.;;;;;;;;;;;;;x
 maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Ma'aravi rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Bureaucratic Government is Enabled;;;;;;;;;;;;;x
 muscular;Muscular;;;;;;;;;;;;;x
-muscular_DESC;While Muscular Jews agree with the egalitarian principles of Haskalah Judaism, they reject its emphasis on Tikkun Olam and religious tolerance, arguing instead that in a world dominated by violence, Jews too must react to the world around them by becoming stronger and fighting for a land of their own.;;;;;;;;;;;;;x
+muscular_DESC;Following the event, and the rise of religious persecution and Anti-Semitism, a new group re-emerged out of the Jewish communities - the Maccabis. This group calls for forceful takeover of land for Jewish communities, and is looked down upon by most Haskalah communities.;;;;;;;;;;;;;x
 maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Muscular rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Holy Wars are allowed;;;;;;;;;;;;;x
 jewish_litvak;Litvak;;;;;;;;;;;;;x
 jewish_litvak_desc;Litvaks stress highly intellectual Talmud study through yeshivas. They descend from earlier opponents to the Chassidic movent known as the Misnagdim, who were centered around the area of Greater Lithuania.;;;;;;;;;;;;;x
@@ -22,13 +22,38 @@ reform_renewal;Renewal;;;;;;;;;;;;;x
 reform_renewal_desc;The Renewal movement incorporates Chassidic thought and a popularized approach to kabbalah with the Reform positions on Halakha, Tikkun Olam and Egalitarianism.;;;;;;;;;;;;;x
 change_jewish_branch;Change Haredi Movement;;;;;;;;;;;;;x
 change_jewish_branch_desc;I can change the Haredi movement that I belong to;;;;;;;;;;;;;x
+TXT_change_jewish_branch;Change your Haredi movement;;;;;;;;;;;;;x
 EVTDESC_jewish_choose;As a Jewish  adult, I can make my own decision for which movement I want to dedicate myself to:;;;;;;;;;;;;;x
 EVTOPT_jewish_litvak;I will follow the teachings of the Vilna Gaon and the Litvaks;;;;;;;;;;;;;x
+EVTOPT_jewish_litvak_desc;Gain the Litvak trait;;;;;;;;;;;;;x
 EVTOPT_jewish_chassid;I will follow the teachings of the Baal Shem Tov and the Chassidim;;;;;;;;;;;;;x
+EVTOPT_jewish_chassid_desc;Gain the Chassid trait;;;;;;;;;;;;;x
 EVTOPT_jewish_breslov;I will follow the teachings of Nachman of Breslov and the Breslover Chassidim;;;;;;;;;;;;;x
+EVTOPT_jewish_breslov_desc;Gain the Breslov trait;;;;;;;;;;;;;x
 change_reform_branch;Change Haskalah Movement;;;;;;;;;;;;;x
 change_reform_branch_desc;I can change the movement within Haskalah Judaism that I belong to;;;;;;;;;;;;;x
+TXT_change_reform_branch;Changes your Haskalah movement;;;;;;;;;;;;;x
 EVTDESC_reform_choose;As a Jewish  adult, I can make my own decision for which movement I want to dedicate myself to:;;;;;;;;;;;;;x
 EVTOPT_reform_conservative;The Conservative movement appeals to me most;;;;;;;;;;;;;x
+EVTOPT_jewish_conservative_desc;Gain the Conservative trait;;;;;;;;;;;;;x
 EVTOPT_reform_reform;The Reform movement is the best option for me.;;;;;;;;;;;;;x
+EVTOPT_jewish_reform_desc;Gain the Reform trait;;;;;;;;;;;;;x
 EVTOPT_reform_renewal;I believe that the Jewish Renewal is where I belong;;;;;;;;;;;;;x
+EVTOPT_jewish_renewal_desc;Gain the Renewal trait;;;;;;;;;;;;;x
+EVTDESC_SoA_506;The Bedikat Hametz has begun in your palace to prepare for the Passover Seder. The members of your household have begun searching for leftover crumbs of leavened bread with a feather, a candle, and a wooden spoon, gathering each crumb so that the palace will be clean and ready for the day Passover arrives.;;;;;;;;;;;;;x
+EVTOPTA_SoA_506;Let the children and servants do this! It is not fit for a [Root.GetTitle]!;;;;;;;;;;;;;x
+EVTOPTB_SoA_506;To make the palace clean for Passover is my duty as well. I will join.;;;;;;;;;;;;;x
+YETZER_HARA;Yetzer Ha'Ra;;;;;;;;;;;;;x
+EVTDESC_SoA_507;The Seder is winding down, with all your guests looking tired and satisfied. One of your guest has clearly had one too many cups of wine, and insists you join him for the "fifth cup" of Slivovitz, a strong plum brandy he brought from his cellar;;;;;;;;;;;;;x
+EVTOPTA_SoA_507;Of course my friend!;;;;;;;;;;;;;x
+EVTOPTB_SoA_507;I'm sorry but I must get to sleep.;;;;;;;;;;;;;x
+welcoming_host;Welcoming Host;;;;;;;;;;;;;x
+chametz_sale;Sold Chametz;;;;;;;;;;;;;x
+EVTDESC_SoA_508; The Passover meal has ended, but the Seder is no over yet. You pour a cup of wine for the prophet Elijah and open the door to welcome him when you see an old beggar standing outside, hoping for leftovers from the kitchen. ;;;;;;;;;;;;;x
+EVTOPTA_SoA_508;Come in and sit with us, let all who are hungry come eat at our Seder Table!;;;;;;;;;;;;;x
+EVTOPTB_SoA_508;Take some leftovers from the kitchen and leave.;;;;;;;;;;;;;x
+EVTDESC_SoA_509;[From.GetTitleName] kept feasting with you after the seder has ended, with more wine constantly being poured.;;;;;;;;;;;;;x
+EVTOPTA_SoA_509;Sure!;;;;;;;;;;;;;x
+reform_temple_baron;Rabbi;;;;;;;;;;;;;x
+reform_temple_barons;Rabbis;;;;;;;;;;;;;x
+d_anti_defamation_legion;Anti-Defamation Legion;;;;;;;;;;;;;x

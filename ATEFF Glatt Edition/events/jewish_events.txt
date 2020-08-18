@@ -17,11 +17,13 @@ character_event = {
 
 	option = {
 		name = EVTOPT_jewish_litvak
+		desc = EVTOPT_jewish_litvak_desc
 		hidden_tooltip = {
-			add_trait = jewish_litvak
 			remove_trait = jewish_breslov
 			remove_trait = jewish_chassid
 		}
+		add_trait = jewish_litvak
+		show_trait = jewish_litvak
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = jewish_litvak }
@@ -33,11 +35,13 @@ character_event = {
 
 	option = {
 		name = EVTOPT_jewish_breslov
+		desc = EVTOPT_jewish_breslov_desc
 		hidden_tooltip = {
-			add_trait = jewish_breslov
 			remove_trait = jewish_litvak
 			remove_trait = jewish_chassid
 		}
+		add_trait = jewish_breslov
+		show_trait = jewish_breslov
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = jewish_breslov }
@@ -49,11 +53,13 @@ character_event = {
 	
 	option = {
 		name = EVTOPT_jewish_chassid
+		desc = EVTOPT_jewish_chassid_desc
 		hidden_tooltip = {
-			add_trait = jewish_chassid
 			remove_trait = jewish_breslov
 			remove_trait = jewish_litvak
 		}
+		add_trait = jewish_chassid
+		show_trait = jewish_chassid
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = jewish_chassid }
@@ -80,11 +86,13 @@ character_event = {
 
 	option = {
 		name = EVTOPT_reform_conservative
+		desc = EVTOPT_reform_conservative_desc
 		hidden_tooltip = {
-			add_trait = reform_conservative
 			remove_trait = reform_reform
 			remove_trait = reform_renewal
 		}
+		add_trait = reform_conservative
+		show_trait = reform_conservative
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = reform_conservative }
@@ -96,11 +104,14 @@ character_event = {
 
 	option = {
 		name = EVTOPT_reform_reform
+		desc = EVTOPT_reform_reform_desc
 		hidden_tooltip = {
-			add_trait = reform_reform
 			remove_trait = reform_conservative
 			remove_trait = reform_renewal
 		}
+		add_trait = reform_reform
+		show_trait = reform_reform
+
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = reform_reform }
@@ -112,11 +123,14 @@ character_event = {
 	
 	option = {
 		name = EVTOPT_reform_renewal
+		desc = EVTOPT_reform_renewal_desc
 		hidden_tooltip = {
-			add_trait_trait = reform_renewal
 			remove_trait = reform_reform
 			remove_trait = reform_conservative
 		}
+		add_trait = reform_renewal
+		show_trait = reform_renewal
+
 		ai_chance = {
 			factor = 10
 			modifier = { factor = 2 trait = reform_renewal }

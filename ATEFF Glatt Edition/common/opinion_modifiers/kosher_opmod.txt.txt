@@ -1,0 +1,8 @@
+chametz_sale = {
+	opinion = 5
+	years = 3
+}
+welcoming_host = {
+	opinion = 10
+	years = 3
+}

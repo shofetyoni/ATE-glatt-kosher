@@ -3683,8 +3683,8 @@ jewish_group = {
 	jewish = {
 		graphical_culture = jewishgfx
 		
-		icon = 66
-		heresy_icon = 67
+		icon = 51
+		heresy_icon = 61
 		
 		color = { 0.1 0.7 1.0 }
 		crusade_name = GREAT_HOLY_WAR
@@ -3697,9 +3697,9 @@ jewish_group = {
 			GOD_GOD GOD_HASHEM
 		}
 		evil_god_names = {
-			BAAL
+			YETZER_HARA
 		}
-		
+		autocephaly = yes
 		can_excommunicate = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
@@ -3717,12 +3717,13 @@ jewish_group = {
 		intermarry = reform
 		intermarry = meshichist
 		intermarry = maaravi
+		intermarry = muscular
 	}
 	meshichist = {
 		graphical_culture = jewishgfx
 		
-		icon = 66
-		heresy_icon = 67
+		icon = 51
+		heresy_icon = 61
 		
 		color = { 0.1 0.8 0.8 }
 		
@@ -3733,7 +3734,7 @@ jewish_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-
+		autocephaly = yes
 		can_grant_divorce = yes
 		can_grant_invasion_cb = invasion
 		allow_rivermovement = yes
@@ -3749,6 +3750,7 @@ jewish_group = {
 		intermarry = jewish
 		intermarry = reform
 		intermarry = maaravi
+		intermarry = muscular
 	}
 	reform = {
 		graphical_culture = jewishgfx
@@ -3757,14 +3759,18 @@ jewish_group = {
 		heresy_icon = 67
 		
 		color = { 0.1 0.5 0.9 }
-		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI		
 		
 		high_god_name = GOD_GOD
 		
 		god_names = {
-			GOD_GOD GOD_THE_LORD ADONAI
+			GOD_GOD GOD_THE_LORD ADONAI GOD_HASHEM
 		}
-		
+		evil_god_names = {
+			YETZER_HARA
+		}
 		crusade_name = GREAT_HOLY_WAR
 
 		can_grant_divorce = yes
@@ -3788,6 +3794,7 @@ jewish_group = {
 		intermarry = jewish
 		intermarry = meshichist
 		intermarry = maaravi
+		intermarry = muscular
 	}
 		maaravi = {
 		graphical_culture = jewishgfx
@@ -3795,7 +3802,7 @@ jewish_group = {
 		icon = 66
 		heresy_icon = 67
 		
-		color = { 0.1 0.5 0.9 }
+		color = { 0.60 0.5 1.0 }
 		
 		parent = reform
 		
@@ -3815,6 +3822,10 @@ jewish_group = {
 		feminist = yes
 		priests_can_inherit = no
 		hard_to_convert = yes
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
+		aggression = 0.5 # AI aggression factor
+		can_demand_religious_conversion = no		
 		
 		
 		religious_clothing_head = 7
@@ -3834,7 +3845,7 @@ jewish_group = {
 		icon = 66
 		heresy_icon = 67
 		
-		color = { 0.1 0.5 0.9 }
+		color = { 0.1 0.1 0.9 }
 		
 		parent = reform
 		
@@ -3855,6 +3866,9 @@ jewish_group = {
 		priests_can_inherit = no
 		hard_to_convert = yes
 		can_demand_religious_conversion = yes
+		pacifist = no
+		aggression = 1.0
+		
 		
 		religious_clothing_head = 7
 		religious_clothing_priest = 7
