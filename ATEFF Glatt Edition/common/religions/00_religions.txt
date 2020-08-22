@@ -3717,7 +3717,7 @@ jewish_group = {
 		intermarry = reform
 		intermarry = meshichist
 		intermarry = maaravi
-		intermarry = muscular
+		intermarry = maccabi
 	}
 	meshichist = {
 		graphical_culture = jewishgfx
@@ -3750,7 +3750,7 @@ jewish_group = {
 		intermarry = jewish
 		intermarry = reform
 		intermarry = maaravi
-		intermarry = muscular
+		intermarry = maccabi
 	}
 	reform = {
 		graphical_culture = jewishgfx
@@ -3794,7 +3794,7 @@ jewish_group = {
 		intermarry = jewish
 		intermarry = meshichist
 		intermarry = maaravi
-		intermarry = muscular
+		intermarry = maccabi
 	}
 		maaravi = {
 		graphical_culture = jewishgfx
@@ -3836,10 +3836,10 @@ jewish_group = {
 		intermarry = jewish
 		intermarry = meshichist
 		intermarry = reform
-		intermarry = muscular
+		intermarry = maccabi
 		intermarry = cetic
 	}
-	muscular = {
+	maccabi = {
 		graphical_culture = jewishgfx
 		
 		icon = 66

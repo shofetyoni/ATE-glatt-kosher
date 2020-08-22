@@ -2111,7 +2111,7 @@ monastic_order_jewish = {
 			religion = jewish
 			religion = reform
 			religion = meshichist
-			religion = muscular
+			religion = maccabi
 			religion = maaravi
 		}
 		custom_tooltip = {
@@ -2129,7 +2129,7 @@ monastic_order_jewish = {
 			religion = jewish
 			religion = reform
 			religion = meshichist
-			religion = muscular
+			religion = maccabi
 			religion = maaravi
 			society_member_of = monastic_order_jewish
 		}
@@ -2140,7 +2140,7 @@ monastic_order_jewish = {
 			religion = jewish
 			religion = reform
 			religion = meshichist
-			religion = muscular
+			religion = maccabi
 			religion = maaravi
 		}
 	}

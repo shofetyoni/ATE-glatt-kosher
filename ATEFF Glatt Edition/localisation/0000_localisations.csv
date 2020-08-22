@@ -3,11 +3,11 @@ reform;Haskalah;;;;;;;;;;;;;x]
 reform_DESC;After the Event, the many progressive Jewish movements that began after the Haskalah, or Jewish Enlightement, began to organize together to insure their survival throughout the centuries. While opinions differ between the movements on Jewish Law, all permit women to be ordained as rabbis and allow marriage between same-sex couples. The Jews of the Haskalah maintain that individual Jews should work towards restoring the pre-Event world through good works and philanthropy. This principle is known as "Tikkun Olam"-- literally, "repair of the world".;;;;;;;;;;;;;x
 reform_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Reform rulers. \n§Y*§! Homosexual Haskalah rulers are allowed to marry other homosexual characters. ;;;;;;;;;;;;;x
 maaravi;Ma'aravi;;;;;;;;;;;;;x
-maaravi_DESC;The Ma'aravi are a Jewish movement popular in the Empire of California, rejected by other for their beliefs that Muhammed, Buddha, Elton, Jesus and others were "Prophets of the other nations" who also recieved divine wisdom that they can learn from.;;;;;;;;;;;;;x
+maaravi_DESC;The Ma'aravi are a Jewish movement popular in the Empire of California, rejected by other Jews for their beliefs that Muhammed, Buddha, Elton, Jesus and others were "prophets of the other nations", which they call Gurus. While the Ma'aravi do not follow all the teachings of these Gurus, they believe in incorporating the divine wisdom from the Gurus of all nations.;;;;;;;;;;;;;x
 maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Ma'aravi rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Bureaucratic Government is Enabled;;;;;;;;;;;;;x
-muscular;Muscular;;;;;;;;;;;;;x
-muscular_DESC;Following the event, and the rise of religious persecution and Anti-Semitism, a new group re-emerged out of the Jewish communities - the Maccabis. This group calls for forceful takeover of land for Jewish communities, and is looked down upon by most Haskalah communities.;;;;;;;;;;;;;x
-maaravi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Muscular rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Holy Wars are allowed;;;;;;;;;;;;;x
+maccabi;Maccabi;;;;;;;;;;;;;x
+maccabi_DESC;Following the event, and the rise of religious persecution and Anti-Semitism, a new group re-emerged out of the Jewish communities - the Maccabis. This group calls for forceful takeover of land for Jewish communities, and rejects the attempts of other Haskalah Jews to harmonize with the gentile nations.;;;;;;;;;;;;;x
+maccabi_FEATURES;§Y*§! Jewish counties are hard to convert. \n§Y*§! Absolute Cognatic succession is allowed for all Maccabi rulers. \n§Y*§! Homosexual Reform rulers are allowed to marry other homosexual characters. \n§Y*§! Holy Wars are allowed;;;;;;;;;;;;;x
 jewish_litvak;Litvak;;;;;;;;;;;;;x
 jewish_litvak_desc;Litvaks stress highly intellectual Talmud study through yeshivas. They descend from earlier opponents to the Chassidic movent known as the Misnagdim, who were centered around the area of Greater Lithuania.;;;;;;;;;;;;;x
 jewish_breslov;Breslover;;;;;;;;;;;;;x
@@ -57,3 +57,43 @@ EVTOPTA_SoA_509;Sure!;;;;;;;;;;;;;x
 reform_temple_baron;Rabbi;;;;;;;;;;;;;x
 reform_temple_barons;Rabbis;;;;;;;;;;;;;x
 d_anti_defamation_legion;Anti-Defamation Legion;;;;;;;;;;;;;x
+secret_religious_society_maccabi;[GetReligiousCommunityName_maccabi];[GetReligiousCommunityName_maccabi];[GetReligiousCommunityName_maccabi];;[GetReligiousCommunityName_maccabi];;;;;;;;;x
+secret_religious_society_REAL_maccabi;The Children of Matityahu;;;;;;;;;;;;;x
+alt_start_community_name_maccabi;The [maccabi.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_maccabi_desc;[GetReligiousSocietyDesc_maccabi];[GetReligiousSocietyDesc_maccabi];[GetReligiousSocietyDesc_maccabi];;[GetReligiousSocietyDesc_maccabi];;;;;;;;;x
+secret_religious_society_maccabi_desc_REAL;As in ancient times, the Maccabis have gone underground, forced to hide themselves from the authorities under penalty of imprisonment or even death. They bide their time, waiting for the day when they can once again clean the holy temple from the desecration of foriegn gods and restore it to glory.;;;;;;;x
+secretly_convert_to_maccabi_holy_site;Secretly Convert to maccabi;;;;;;;;;;;;;x
+secretly_convert_to_maccabi_holy_site_desc;The §Ymaccabi§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_maccabi_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_maccabi_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_maccabi_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_maccabi_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_maccabi_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_maccabi_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_maccabi_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_maccabi_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_maccabi_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_maccabi;Secret Maccabi Community;;;;;;;;;;;;;x
+secret_maccabi_community;Secret Maccabi Community;;;;;;;;;;;;;x
+secret_maccabi_community_desc;In secret, Maccabi faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_maccabi_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
+secret_religious_society_maaravi;[GetReligiousCommunityName_maaravi];[GetReligiousCommunityName_maaravi];[GetReligiousCommunityName_maaravi];;[GetReligiousCommunityName_maaravi];;;;;;;;;x
+secret_religious_society_REAL_maaravi;The Maaravi Faithful;;;;;;;;;;;;;x
+alt_start_community_name_maaravi;The [maaravi.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_maaravi_desc;[GetReligiousSocietyDesc_maaravi];[GetReligiousSocietyDesc_maaravi];[GetReligiousSocietyDesc_maaravi];;[GetReligiousSocietyDesc_maaravi];;;;;;;;;x
+secret_religious_society_maaravi_desc_REAL;Hidden Jewish communities have organized under oppression ever since the time of the Babylonian captivity. These groups welcome both those forced to convert away of Judaism, the Anusim, and those who have secretly become righteous converts, the ger tzedek. A community always cares for its own, knowing that as ages pass, true faith is worth persevering for. God will provide.;Les communautés juives cachées se sont organisées sous l'oppression depuis l'époque de la captivité babylonienne. Ces groupes accueillent à la fois les juifs qui ont été forcés à se convertir, les Anoussim, et ceux qui se sont secrètement convertis, les ger tizedek. On peut toujours compter sur les membres de sa communauté, sachant qu'avec le temps qui passe, la vraie foi mérite qu'on lui reste fidèle. Dieu pourvoira.;Seit der babylonischen Gefangenschaft haben sich in Zeiten der Unterdrückung versteckte jüdische Gemeinden organisiert. Diese Gruppen heißen sowohl die Anusim willkommen, die gezwungen wurden, sich vom Judentum abzuwenden, als auch die "ger tzedek", die heimlich zu rechtmäßigen Konvertiten geworden sind. Eine Gemeinde sorgt stets für ihre Angehörigen, da bekannt ist, dass im Lauf der Jahrhunderte wahrer Glaube es wert ist, standhaft an ihm festzuhalten. Gott wird für die Seinen sorgen.;;Comunidades judías secretas se han organizado bajo la opresión desde los tiempos del cautiverio de Babilonia. Estos grupos incluyen tanto a aquellos obligados a dejar la fe judía, los anusim, como a aquellos que han pasado a ser rectos conversos en secreto, los ger tzedek. Una comunidad siempre cuida de los suyos, sabiendo que con el paso del tiempo, vale la pena preservar la fe verdadera. Dios proveerá.;;;;;;;;;x
+secretly_convert_to_maaravi_holy_site;Secretly Convert to maaravi;;;;;;;;;;;;;x
+secretly_convert_to_maaravi_holy_site_desc;The §YMaaravi§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_maaravi_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_maaravi_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_maaravi_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_maaravi_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_maaravi_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_maaravi_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_maaravi_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_maaravi_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_maaravi_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_maaravi;Secret Maaravi Community;;;;;;;;;;;;;x
+secret_maaravi_community;Secret Maaravi Community;;;;;;;;;;;;;x
+secret_maaravi_community_desc;In secret, Maaravi faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_maaravi_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x

@@ -1,0 +1,13 @@
+
+secret_maaravi_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_maaravi
+	}
+}
+secret_maccabi_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_maccabi
+	}
+}
